@@ -15,7 +15,7 @@ function draw() {
   noStroke;
   text("Text:" + mouseX + mouseY, 50,70)
   if(version==1) {
-  fill(mouseX/windowWidth*255,mouseY/windowWidth*255,0);
+  fill(mouseX/windowWidth*255,mouseY/windowWidth*255,50);
   circle(mouseX, mouseY, 20);
   }
   if(version==2) {
